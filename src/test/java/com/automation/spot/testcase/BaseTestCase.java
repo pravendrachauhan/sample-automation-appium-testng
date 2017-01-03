@@ -57,7 +57,7 @@ public class BaseTestCase {
 		if (osName.contains("mac")) {
 			//            mac path
 			nodePath = "/usr/local/bin/node";
-			appiumPath = "/usr/local/lib/node_modules/appium/build/lib/main.js";
+			appiumPath = "/Users/pravendra/node_modules/appium/build/lib/main.js";
 		} else if (osName.contains("linux")) {
 			//      linux path
 			nodePath = System.getenv("HOME") + "/.linuxbrew/bin/node";
